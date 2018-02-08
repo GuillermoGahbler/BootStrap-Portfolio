@@ -1,0 +1,34 @@
+h1 {
+    font-size: 25px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page-header {
+    border-bottom: 1px solid #DDD;
+}
+
+.nav {
+    background: rgb(116, 110, 110);
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/45-Degree-lines-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    
+}
+
+#icons {
+    margin: 5px;
+    padding: 5px;
+}
+
+.col-md {
+    height: 100%;
+    text-align: center;
+}
