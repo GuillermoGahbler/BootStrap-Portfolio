@@ -6,14 +6,114 @@
   <title>Bootstrap Components</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <style>
+     body {
+         background: url("assets/images/background.png")
+         
+     }
 
-  <link rel="stylesheet" href="style.css">
+     html, body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      .content {
+        flex: 1 0 auto;
+      }
 
-  
+      footer {
+          text-align: center;
+          background-color: grey;
+        
+      }
+     
+ </style>
+
+
 </head>
-
 <body>
-<!-- HEADER CONTAINER BEGINGS -->
+    <div class="content">
+    <!-- header wrapper -->
+        <div class="header-wrapper col-12 p-0 bg-white">    
+            <div class="container col-md-11 col-lg-10 clearfix bg-white"> <!--note the md was set 12 but can be 11-->
+                <header class="col-12 col-md-6  float-left">
+                    <div class="col-6">
+                        <h3 class="col-12 mb-0 bg-info">
+                                    Guillermo Gahbler
+                        </h3>
+                    </div>    
+                </header>
+                <nav class="nav col-12 col-md-6 mt-3 pl-5 float-right bg-white">
+                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">Link</a>
+                </nav>
+            </div>
+        </div>        
+    <!-- end of header wrapper -->
+
+    <!-- Main contect begins -->
+
+        <div class="container col-lg-10 col-md-11 mt-4 clearfix"> <!--added col-md-11 to align-->
+            <section class="float-lg-left bg-white col-lg-6 clearfix">
+                <h3>
+                    About me
+                </h3>
+                    <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="image of me" class="float-md-left float-lg-none pr-md-3 col-md-6">
+                    <p>
+                        paragraph about me.
+                    </p>
+                    <p>
+                        2nd paragraph about me.
+                    </p>    
+                    
+            </section>
+            <aside class="float-lg-right col-lg-5 mr-md-5 bg-white">
+                <h4 class="text-center">
+                    Connect with me
+                </h4>
+                    <img src="assets/images/github.svg" alt="guthub link" style="width:80px; height:80px;">
+                    <img src="assets/images/stack.svg" alt="stackoverflowlink" style="width:80px; height:80px;">   
+                    <img src="assets/images/link.svg" alt="linkedin link" style="width:80px; height:80px;">
+            </aside>
+        </div>
+
+    </div> 
+    
+    <footer class="footer">footer</footer>
+    
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- OLD HTML STRUCTURE 
   <div class="container">   
     <ul class="nav row bg-dark">
         <li class="nav-item mr-auto">
@@ -38,12 +138,9 @@
         </li>
     </ul>
    </div>
-<!-- end header container -->
-   
-  <!-- MAIN CONTENT CONTAINER BEGINS -->
   
     <div class="container">
-        <div class="row bg"> <!--being content row--> 
+        <div class="row bg">  
             <div class="col-md-5 bg-white m-5">
                 <div class="page-header pb-2 mb-4">
                     <h1 class="text-info">
@@ -75,10 +172,8 @@
                 </div> 
             </div>
             
-            <!--filler column in between about me and connect with me  -->
-            <div class="col-1"></div>
-            <!-- end filler column in between about me and connect with me -->
-
+                       <div class="col-1"></div>
+           
 
             <div class="col-md m-5 bg-white">
                 <div class="page-header">
@@ -106,11 +201,6 @@
             <h3 class="m-auto">footer</h3>
         </footer>    
     </div>
-<!--end main content container -->
 
-  
+   -->
     
-    
-     
-</body>
-</html>
