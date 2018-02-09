@@ -59,15 +59,26 @@
         <div class="container col-lg-10 col-md-11 mt-4 clearfix"> <!--added col-md-11 to align-->
             <section class="float-lg-left bg-white col-lg-6 clearfix">
                 <h3>
-                    About me
+                    Contact
                 </h3>
-                    <img src="http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png" alt="image of me" class="float-md-left float-lg-none pr-md-3 col-md-6">
-                    <p>
-                        paragraph about me.
-                    </p>
-                    <p>
-                        2nd paragraph about me.
-                    </p>    
+                <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@email.com">
+                          <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputname1">Name</label>
+                          <input type="name" class="form-control" id="exampleInputName1" placeholder="Jane/John doe">
+                        </div>
+                                                                      
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message here"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>    
                     
             </section>
             <aside class="float-lg-right col-lg-5 mr-md-5 bg-white">
